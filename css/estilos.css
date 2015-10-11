@@ -1,94 +1,80 @@
-*,*:after,*:before{
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-              box-sizing: border-box;
-     text-rendering:optimizeLegibility;
-}
-#titulo
-{
-	background: rgba(225,225,225,5);
+
+body {
+	background-color: #000000;
 }
 
-#cuerpo {
+#principal {
 	width: 100%;
-    height: 750px;
-
-	margin: none;
-	text-align: center;
-	background-color: rgba(225,225,225,1);
+	height: 100%;
+	background-color: #5882FA;
+	position: absolute;
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:auto;
+   	z-index:-1;
+   	/*display: inline-block;*/
 }
 
-.secciones {
-	background-color: rgba(2,84,80,0.8);
+#organizador {
+	top: 5em;
+	height: 25em;
+	width: 100%;
 	display: inline-block;
-	height: 350px;
-	width: 100%;
-	min-width: 280px;
-	font-size: 2em;
-	padding: 0.5em;
 	text-align: center;
-  }
+	position: relative;
+	margin: 0 auto;
+}
 
 #titulo {
 	text-align: center;
-	font-size: 8em;
-	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
+	color: #FFFFFF;
 }
-.element{
-	padding: 1%;
-	width: 33.33%;
-	float: left;
-	text-align: center;
 
-	
+
+#sonido {
+	top: 100px;
+	margin: 0 auto;
+	width: 30%;
+	height: 20em;
+	background-color: #FFFFFF;
+	text-align: justify;
+	padding: 5px;
+	position: relative;
+	margin: 1%;
 	display: inline-block;
-	min-width: 280px;
-	font-size: 2em;
 	
+}
 	
-	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
+#contenedor {
+	top: 100px;
+	margin: 0 auto;
+	width: 30%;
+	height: 20em;
+	text-align: center justify;
+	padding: 5px;
+	position: relative;
+	margin: 1%;
+	display: inline-block;
 }
-.element audio
-{
-	opacity: 0;
-}
-.element
-{
 
-}
-.element a
-{
-	color:#ddd;
-	display: block;
-	text-decoration: none;
-	text-transform: uppercase;
-	width: 100%;
-}
-.element a:hover
-{
-	margin-top: 1em;
-	--webkit-transition:all .5s;
-	-o-transition:all .5s;
-	transition: all .5s;
-}
-.element div
-{
-    box-shadow: 0  1px rgba(255,255,255,.2) inset;
-	margin-bottom: 5px;
-	padding-left: 0.5em;
-	/*outline: 1px solid green;*/
-	--webkit-transition:all .5s;
-	-o-transition:all .5s;
-	transition: all .5s;
-}
-.element div:hover
-{
-	box-shadow: 0 15em  rgba(255,255,255,.2) inset;
-}
-.element img
 
-{
-	opacity: 0.5%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
